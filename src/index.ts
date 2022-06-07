@@ -15,9 +15,6 @@ async function main() {
   // app.listen(PORT, () => {
   //   console.log(`[ server ] ready on port ${PORT}`);
   // });
-
-  const wallets = new Array(100).fill(true).map(() => ethers.Wallet.createRandom().address);
-  console.log('🔥', wallets);
 }
 
 main();
